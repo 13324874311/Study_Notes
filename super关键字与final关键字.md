@@ -50,7 +50,7 @@ super调用父类构造器的作用
 ##### this和super详情  
 this：代表本类对象的引用；  
 super：代表父类存储空间的标识。  
-![[this与super的区别.png|this与super的区别.png]]  
+![Image](https://github.com/user-attachments/assets/8d3b98a3-4643-4108-83c6-9557cd887b3d)
 ##### this(...)和super(...)使用注意点  
 ·子类通过this(...)去调用本类的其他构造器，本类其他构造器会通过super去手动调用父类的构造器，最终还是会调用父类构造器的。  
 ##### 注意：  
